@@ -7,7 +7,7 @@ GIS Portfolio displaying knowledge, skill, capabilities and accomplishments; cre
 **Tools:** ArcGIS Pro 3.6.4  
 **Skills:** Digitizing, editing workflows, cartographic layout, metadata, coordinate systems
 
-![Building Footprints – Snug Harbor, NC](building_footprints_snugharbor_web.jpg)
+![Building Footprints – Snug Harbor, NC](building_footprint_digitalization_snugharbor_layout.jpg)
 
 **Overview:**  
 This project demonstrates manual digitization of building footprints using high‑resolution Esri World Imagery. I selected a neighborhood in Snug Harbor, NC and created a new polygon feature class to capture all visible structures. Approximately 50 building footprints were digitized with clean geometry and attribute fields.
