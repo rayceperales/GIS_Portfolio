@@ -22,4 +22,4 @@ This project demonstrates manual digitization of building footprints using high�
 - Exported final outputs as Web JPEG (for display) and Vector PDF (for download)
 
 **Download full map (PDF):**  
-[Building Footprints – Snug Harbor, NC (Vector PDF)](building_footprints_snugharbor_vector.pdf)
+[Building Footprints – Snug Harbor, NC (Vector PDF)](building_footprint_digitalization_snugharbor.pdf)
