@@ -25,6 +25,7 @@ This project demonstrates manual digitization of building footprints using high�
 [Building Footprints – Snug Harbor, NC (Vector PDF)](building_footprint_digitalization_snugharbor.pdf)
 
 ## Project 2 – Road Topology Correction (Snug Harbor, NC)
+
 **Tools:** ArcGIS Pro 3.6.4
 **Skills:** Topology validation, error correction, editing workflows, cartographic layout, geodatabase management
 
