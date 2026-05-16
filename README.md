@@ -65,7 +65,7 @@ ArcGIS Pro 3.6.4
 **Skills:**  
 LiDAR processing, DEM generation, hillshade creation, contour extraction, raster analysis, cartographic layout  
 
-![LiDAR‑Derived Terrain Visualization – Snug Harbor, NC](lidar_terrain_snugharbor.jpg)
+![LiDAR‑Derived Terrain Visualization – Snug Harbor, NC](lidar_terrain_model_snugharbor.jpg)
 
 **Overview:**  
 This project uses 2019 North Carolina LiDAR data to generate a bare‑earth Digital Elevation Model (DEM), hillshade, and 2‑foot elevation contours for Snug Harbor, NC. The final map visualizes terrain variation in a coastal residential area using LiDAR‑derived elevation products.
@@ -81,4 +81,4 @@ This project uses 2019 North Carolina LiDAR data to generate a bare‑earth Digi
 - Exported final outputs as Web JPEG (for display) and Vector PDF (for download)
 
 **Download full map (PDF):**  
-[LiDAR‑Derived Terrain Visualization – Snug Harbor, NC (Vector PDF)](lidar_terrain_snugharbor.pdf)
+[LiDAR‑Derived Terrain Visualization – Snug Harbor, NC (Vector PDF)](lidar_terrain_model_snugharbor.pdf)
