@@ -1,4 +1,4 @@
-# GIS_Portfolio – Rayce Perales
+# GIS Portfolio – Rayce Perales
 GIS Portfolio displaying knowledge, skill, capabilities and accomplishments; created by Rayce Perales.
 
 ---
