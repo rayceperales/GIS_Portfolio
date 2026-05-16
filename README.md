@@ -54,3 +54,31 @@ This project demonstrates the identification and correction of topology errors w
 
 **Download full map (PDF):**  
 [Road Topology Correction – Snug Harbor, NC (Vector PDF)](road_topology_snugharbor.pdf)
+
+---
+
+## Project 3 – LiDAR‑Derived Terrain Visualization (Snug Harbor, NC)
+
+**Tools:**  
+ArcGIS Pro 3.6.4  
+
+**Skills:**  
+LiDAR processing, DEM generation, hillshade creation, contour extraction, raster analysis, cartographic layout  
+
+![LiDAR‑Derived Terrain Visualization – Snug Harbor, NC](lidar_terrain_snugharbor.jpg)
+
+**Overview:**  
+This project uses 2019 North Carolina LiDAR data to generate a bare‑earth Digital Elevation Model (DEM), hillshade, and 2‑foot elevation contours for Snug Harbor, NC. The final map visualizes terrain variation in a coastal residential area using LiDAR‑derived elevation products.
+
+**Workflow:**
+
+- Downloaded 2019 LiDAR tiles from the NC Spatial Data Download (NC SDD) portal  
+- Created a LAS Dataset and applied ground‑only classification filters  
+- Generated a bare‑earth DEM using LAS Dataset to Raster  
+- Created a hillshade using Spatial Analyst tools  
+- Extracted 2‑foot contours and styled index contours for clarity  
+- Designed a clean terrain visualization layout with title, scale bar, north arrow, and metadata  
+- Exported final outputs as Web JPEG (for display) and Vector PDF (for download)
+
+**Download full map (PDF):**  
+[LiDAR‑Derived Terrain Visualization – Snug Harbor, NC (Vector PDF)](lidar_terrain_snugharbor.pdf)
