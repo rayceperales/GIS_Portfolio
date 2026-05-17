@@ -121,7 +121,7 @@ ArcGIS Pro 3.6.4
 **Skills:**  
 Weighted overlay modeling, raster reclassification, distance analysis, parcel filtering, geoprocessing workflow design, spatial decision support, cartographic layout  
 
-![Emergency Services Facility Suitability – Perquimans County, NC](emergency_services_suitability.jpg)
+![Emergency Services Facility Suitability – Perquimans County, NC](emergency_services_suitability_perquimans.jpg)
 
 **Overview:**  
 This project identifies optimal locations for a new emergency services facility in Perquimans County, NC using a multi‑criteria suitability model. Slope, distance to roads, flood hazard, and land cover were converted to standardized 1–5 suitability rasters and combined using a weighted overlay. Parcels intersecting high‑suitability zones were extracted and ranked based on parcel size and distance to existing emergency service facilities (EMS, fire, and law enforcement). The top five parcels represent the highest‑value candidate sites for potential development.
@@ -147,4 +147,4 @@ This project identifies optimal locations for a new emergency services facility 
 The suitability model identified several high‑value development zones across Perquimans County. After filtering parcels within these zones and ranking them by size and distance to existing emergency services, the analysis produced **five top‑ranked parcels** that represent the strongest candidates for a new emergency services facility. These results support data‑driven planning, emergency response optimization, and long‑term infrastructure decision‑making.
 
 **Download full map (PDF):**  
-[Emergency Services Facility Suitability – Perquimans County, NC (Vector PDF)](emergency_services_suitability.pdf)
+[Emergency Services Facility Suitability – Perquimans County, NC (Vector PDF)](emergency_services_suitability_perquimans.pdf)
