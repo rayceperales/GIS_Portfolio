@@ -112,3 +112,39 @@ The analysis identified **261 buildings** located within 1,000 feet of public sc
 
 **Download full map (PDF):**  
 [School Safety Buffer & Population Impact Analysis – Perquimans County, NC (Vector PDF)](school_safety_analysis_perquimans.pdf)
+
+## Project 5 – Emergency Services Facility Suitability & Top Parcel Selection (Perquimans County, NC)
+
+**Tools:**  
+ArcGIS Pro 3.6.4  
+
+**Skills:**  
+Weighted overlay modeling, raster reclassification, distance analysis, parcel filtering, geoprocessing workflow design, spatial decision support, cartographic layout  
+
+![Emergency Services Facility Suitability – Perquimans County, NC](emergency_services_suitability.jpg)
+
+**Overview:**  
+This project identifies optimal locations for a new emergency services facility in Perquimans County, NC using a multi‑criteria suitability model. Slope, distance to roads, flood hazard, and land cover were converted to standardized 1–5 suitability rasters and combined using a weighted overlay. Parcels intersecting high‑suitability zones were extracted and ranked based on parcel size and distance to existing emergency service facilities (EMS, fire, and law enforcement). The top five parcels represent the highest‑value candidate sites for potential development.
+
+**Workflow:**
+
+- Downloaded countywide DEM, roads, land cover, flood hazard (NFHL), and parcel data from NC OneMap  
+- Generated slope raster from DEM and reclassified into 1–5 suitability classes  
+- Calculated Euclidean distance to roads and reclassified into 1–5 suitability classes  
+- Converted NFHL flood zones to raster and reclassified flood hazard into 1 (unsuitable) and 5 (suitable)  
+- Reclassified NLCD land cover into 1–5 suitability classes  
+- Combined all reclassified rasters using a weighted overlay (Roads 40%, Slope 30%, Flood 20%, Land Cover 10%)  
+- Extracted high‑suitability areas (values ≥ 4) and converted them to polygons  
+- Clipped county parcels to high‑suitability polygons to identify candidate parcels  
+- Merged EMS, fire, and law enforcement facility layers into a single point dataset  
+- Calculated distance from each candidate parcel to the nearest existing facility using the Near tool  
+- Calculated parcel area (acres) and created a ranking score based on distance and size  
+- Selected the top five parcels and highlighted them in the final map layout  
+- Designed a professional map layout showing suitability surface, top parcels, existing facilities, and contextual layers  
+- Exported final outputs as Web JPEG (for display) and Vector PDF (for download)
+
+**Outcome:**  
+The suitability model identified several high‑value development zones across Perquimans County. After filtering parcels within these zones and ranking them by size and distance to existing emergency services, the analysis produced **five top‑ranked parcels** that represent the strongest candidates for a new emergency services facility. These results support data‑driven planning, emergency response optimization, and long‑term infrastructure decision‑making.
+
+**Download full map (PDF):**  
+[Emergency Services Facility Suitability – Perquimans County, NC (Vector PDF)](emergency_services_suitability.pdf)
