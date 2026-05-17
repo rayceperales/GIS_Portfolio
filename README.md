@@ -82,3 +82,33 @@ This project uses 2019 North Carolina LiDAR data to generate a bare‑earth Digi
 
 **Download full map (PDF):**  
 [LiDAR‑Derived Terrain Visualization – Snug Harbor, NC (Vector PDF)](lidar_terrain_model_snugharbor.pdf)
+
+## Project 4 – School Safety Buffer & Population Impact Analysis (Perquimans County, NC)
+
+**Tools:**  
+ArcGIS Pro 3.6.4  
+
+**Skills:**  
+Buffer analysis, spatial joins, select-by-location workflows, census data integration, population estimation, cartographic layout, geoprocessing workflow design  
+
+![School Safety Buffer & Population Impact Analysis – Perquimans County, NC](school_safety_analysis_perquimans.jpg)
+
+**Overview:**  
+This project evaluates development and population exposure within 1,000 feet of public schools in Perquimans County, NC. Using school locations, building footprints, and census block population data, I identified structures and residents located inside the school safety zone. The analysis demonstrates real-world GIS skills used in planning, emergency management, and public safety assessments.
+
+**Workflow:**
+
+- Downloaded public school locations from NC OneMap and clipped to Perquimans County  
+- Downloaded countywide building footprints from the NC Spatial Data Download (NC SDD) portal  
+- Downloaded census blocks with population attributes from NC OneMap  
+- Created a 1,000‑foot dissolved buffer around all public schools  
+- Selected and exported all buildings intersecting the buffer  
+- Selected intersecting census blocks and summarized total population  
+- Designed a professional map layout showing schools, buffer, impacted buildings, and contextual layers  
+- Exported final outputs as Web JPEG (for display) and Vector PDF (for download)
+
+**Outcome:**  
+The analysis identified **261 buildings** located within 1,000 feet of public schools. Census block population data indicates approximately **1,186 residents** live inside the school safety buffer. These results provide a clear understanding of development and population exposure surrounding local schools, supporting planning, emergency management, and policy evaluation efforts.
+
+**Download full map (PDF):**  
+[School Safety Buffer & Population Impact Analysis – Perquimans County, NC (Vector PDF)](school_safety_analysis_perquimans.pdf)
