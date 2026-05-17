@@ -1,5 +1,5 @@
 # GIS Portfolio – Rayce Perales
-GIS Portfolio displaying knowledge, skill, capabilities and accomplishments; created by Rayce Perales.
+GIS Portfolio displaying knowledge, skills, capabilities, and accomplishments; created by Rayce Perales.
 
 ---
 
@@ -83,18 +83,20 @@ This project uses 2019 North Carolina LiDAR data to generate a bare‑earth Digi
 **Download full map (PDF):**  
 [LiDAR‑Derived Terrain Visualization – Snug Harbor, NC (Vector PDF)](lidar_terrain_model_snugharbor.pdf)
 
+---
+
 ## Project 4 – School Safety Buffer & Population Impact Analysis (Perquimans County, NC)
 
 **Tools:**  
 ArcGIS Pro 3.6.4  
 
 **Skills:**  
-Buffer analysis, spatial joins, select-by-location workflows, census data integration, population estimation, cartographic layout, geoprocessing workflow design  
+Buffer analysis, spatial joins, select‑by‑location workflows, census data integration, population estimation, cartographic layout, geoprocessing workflow design  
 
 ![School Safety Buffer & Population Impact Analysis – Perquimans County, NC](school_safety_analysis_perquimans.jpg)
 
 **Overview:**  
-This project evaluates development and population exposure within 1,000 feet of public schools in Perquimans County, NC. Using school locations, building footprints, and census block population data, I identified structures and residents located inside the school safety zone. The analysis demonstrates real-world GIS skills used in planning, emergency management, and public safety assessments.
+This project evaluates development and population exposure within 1,000 feet of public schools in Perquimans County, NC. Using school locations, building footprints, and census block population data, I identified structures and residents located inside the school safety zone. The analysis demonstrates real‑world GIS skills used in planning, emergency management, and public safety assessments.
 
 **Workflow:**
 
@@ -112,6 +114,8 @@ The analysis identified **261 buildings** located within 1,000 feet of public sc
 
 **Download full map (PDF):**  
 [School Safety Buffer & Population Impact Analysis – Perquimans County, NC (Vector PDF)](school_safety_analysis_perquimans.pdf)
+
+---
 
 ## Project 5 – Emergency Services Facility Suitability & Top Parcel Selection (Perquimans County, NC)
 
