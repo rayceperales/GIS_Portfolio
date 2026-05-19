@@ -152,3 +152,36 @@ The suitability model identified several high‑value development zones across P
 
 **Download full map (PDF):**  
 [Emergency Services Facility Suitability – Perquimans County, NC (Vector PDF)](emergency_services_suitability_perquimans.pdf)
+
+---
+
+## Project 6 – Fire Service Area Coverage (Perquimans County, NC)
+
+**Tools:**  
+ArcGIS Pro 3.6.4, Network Analyst  
+
+**Skills:**  
+Network dataset construction, service area analysis, travel‑time modeling, emergency response planning, cartographic layout, documentation  
+
+![Fire Service Area Coverage – Perquimans County, NC](fire_service_area_coverage_perquimans.jpg)
+
+**Overview:**  
+This project maps 5, 10, and 15‑minute drive‑time service areas from fire service facilities in Perquimans County, NC. Using a travel‑time network built from NCDOT road centerlines (via NC OneMap), the analysis visualizes emergency response coverage and highlights areas that may experience longer response times under typical driving conditions.
+
+**Workflow:**
+
+- Obtained NCDOT road centerlines and county boundary data from NC OneMap  
+- Built a network dataset from the road centerlines and configured travel‑time impedance from segment length and speed assumptions  
+- Loaded fire service facility locations as network analysis facilities  
+- Generated 5, 10, and 15‑minute service area polygons using the Service Area solver with overlapping polygons allowed  
+- Styled polygons with a clear 0–5, 5–10, and 10–15 minute symbology and emphasized facility locations  
+- Designed a professional map layout including title, legend, scale bar, north arrow, description, and data source text blocks  
+- Exported final outputs as Web JPEG (for display) and Vector PDF (for download)
+
+**Data Sources:**  
+Road centerlines and associated attributes: North Carolina Department of Transportation (NCDOT) via NC OneMap.  
+Administrative boundaries, hydrography, and reference layers: NC OneMap, State of North Carolina GIS Clearinghouse.  
+Facilities: User‑provided locations (2026).
+
+**Download full map (PDF):**  
+[Fire Service Area Coverage – Perquimans County, NC (Vector PDF)](fire_service_area_coverage_perquimans.pdf)
